@@ -1,0 +1,371 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+<style>
+.item {
+    height: 692px;
+    border-radius: 0px 0px 20px 20px;
+    background: #FDFDFD;
+    box-shadow: 0px 1px 1px 0px #00000040;
+    margin-bottom: 20px;
+    transition: width 0.3s ease, top 0.3s ease;
+}
+
+.left-item {
+    float: left;
+    width: 132px;
+    top: 140px;
+}
+
+.upper-section {
+    width: 112px;
+    height: 50px;
+    top: 90px;
+    border-radius: 0px 20px 0px 0px;
+    background: black;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-item.full-width .upper-section {
+    width: 374px !important;
+    height: 50px !important;
+    top: 90px !important;
+    border-radius: 0px 20px 0px 0px;
+    background: black;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-item.full-width {
+    width: 392px !important;
+    top: 140px !important;
+}
+
+.left-item ul {
+    padding: 0;
+}
+
+.left-item li {
+    margin-left: 20px;
+    padding: 5px 0;
+    display: none;
+}
+
+.left-item.show-list li {
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+.button {
+    width: 68px;
+    height: 68px;
+    margin-right: 20px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background-color: white;
+    color: black;
+    border-color: #66CCFF;
+}
+
+.left-item.full-width .upper-section:after {
+    content: "Journey Board";
+    font-size: 18px;
+}
+</style>
+</head>
+<body>
+
+    <nav class="container">
+        <div class="logo-container">
+            <img  class="logo" src="https://deepthought.education/assets/images/logo/logo.svg" alt="">
+        </div>
+        <div class="last_container">
+          <div class="landing_link">
+           <img  class="group" src="Ellipse 53.png">
+           <img  class="group" src="Group 1097.png" alt="">
+            <img  class="group"src="Group 1100.png">
+            
+         </div>
+           <div class="dots">
+            <img src=" Ellipse 1.png">
+            <img src="Ellipse 1.png">
+            <img src="Ellipse 1.png">
+            </div>
+              
+             
+        </div>
+        
+       
+    </nav>
+  <div class="box">
+    <div>
+    <h1>Technical Project Management</h1> 
+    </div>
+    <div>
+    <button type="text">submit Task</button>
+    </div>
+    </div>
+    <div class="mid_container">
+    <div class="inbox">
+    <h2>explore the world managment</h2>
+    <p >As a project manager ,you play an important in leading a project throught initiation,planning,execution,controlling and<br>
+    completion.How?Do you want to manage each and every step in your life?
+    </div>
+    </div>
+    </p>
+    </div>
+  <div class="left-item item">
+    <div class="upper-section">
+        <p></p>
+    </div>
+    <ul>
+        <li>Explore the world of management</li>
+        <li>Technical Project Management</li>
+        <li>Threadbuild</li>
+        <li>Structure your pointers</li>
+        <li>4SA Method</li>
+    </ul>
+    <button class="button" onclick="this.parentNode.classList.toggle('full-width')">Button 1</button>
+</div>
+
+<script>
+var button1 = document.querySelector(".button");
+var leftItem = document.querySelector(".left-item");
+
+button1.addEventListener("click", function() {
+    leftItem.classList.toggle("full-width");
+    if (leftItem.classList.contains("full-width")) {
+        
+        leftItem.querySelector(".upper-section").innerHTML = "<p>Journey Board</p>";
+        leftItem.querySelector(".upper-section").style.display = "block";
+        leftItem.querySelector(".upper-section").style.height = "50px";
+        
+        leftItem.querySelectorAll(".left-item li").forEach(function(li) {
+            li.style.display = "block";
+         var button1 = document.querySelector(".button");
+        var leftItem = document.querySelector(".left-item");
+        
+
+       
+        
+        });
+    }
+        button1.addEventListener("click", function() {
+          button1.style.display = "none";
+            leftItem.classList.toggle("full-width");
+            leftItem.classList.toggle("show-list");
+           
+        });
+});
+
+        </script>
+   <div class="book-notification">
+    <div class="book">
+       
+        <p>N</p>
+        <p>O</p>
+        <p>T</p>
+        <p>I</p>
+        <p>F</p>
+        <p>I</p>
+        <p>C</p>
+        <p>A</p>
+        <p>T</p>
+        <p>I</p>
+        <p>O</p>
+        <p>N</p>
+      
+        <p>B</p>
+        <p>O</p>
+        <p>L</p>
+        <p>D</p>
+
+        
+
+    </div>
+</div>
+
+    <div class="container-wrapper">
+    <div class="grid">
+    <div class="grid1">
+    <div class="layout">
+    
+      <div class="tech">Technical Project Management</div>
+      <div class="group" >
+      <img  src="Group 1735.png">
+     </div>
+    </div>
+    <div class="description">
+    <p class="p1"> <b>Description</b>: Story of Alignment Scope of Agility Specific Accountable Staggering Approach</P>
+    </div>
+    <div>
+    <iframe width="480" height="315" src="https://www.youtube.com/embed/TiMRwri1xJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </div>
+    <div class="grid1" id="grid1-1">
+    <div class="layout">
+     <div class="tech">Threadbuild</div>
+     <div class="group" >
+      <img  src="Group 1735.png">
+     </div>
+    </div>
+     <div class="description">
+    <p class="p1"> <b>Description</b>: Watch the video and threadbuild, and jot out key threads while watching the video</P>
+    </div>
+    <div class='a'>
+   <img  class="symbol" src=Vector-2.png>
+    <h3>Thread A</h3>
+    </div>
+    <div class="first-container">
+    <div class="main-container">
+   <div class="top-container">
+     <div class="sub">Sub Thread 1</div>
+   </div>
+   <input class="bottom-container"  placeholder="enter text here">
+   
+  
+    </div>
+   <div class="main-container">
+   <div class="top-container">
+    <div class="sub">Sub Interpretation 1</div>
+  </div>
+   <input class="bottom-container"  placeholder="enter text here">
+    </div>
+     </div>
+      <div class="third-conatiner">
+    <div class="group0">
+    <img  src="Group 1588.png">
+    </div>
+    <div>
+       
+        <select name="Select Categ">
+         <option value="Select Categeory">Select Categeory</option>
+     <option value="london">Remark</option>
+     <option value="paris">Questions</option>
+     <option value="new-york">sub argumant</option>
+    <option value="tokyo">sub explanation</option>
+    <option value="tokyo">Core Symbol</option>
+    </select>
+    </div>
+    <div>
+     
+     <select name="Select Proccess">
+      <option value="Select Proccess">Select Proccess</option>
+     <option value="london">Questions</option>
+     <option value="paris">analogy</option>
+     <option value="new-york">Scarasam</option>
+    <option value="tokyo">insight</option>
+    <option value="tokyo">Counter Example</option>
+    </select>
+    </div>
+    
+    </div>
+     <button class="thread">&#x2b; Sub thread</button>
+        <div class="fourth-container">
+   <div class="top-container">
+    <div class="sub">Summary For Thread A</div>
+  </div>
+   <input class="bottom-container1"  placeholder="enter text here">
+    </div>
+
+
+ 
+  <div  class="net-conatiner"> 
+      <button>+ new thread</button>
+    </div>
+         
+    </div>
+
+
+
+     <div class="grid1">
+     <div class="layout">
+      <div class="tech">Structure your Pointers</div>
+      <div class="group" >
+      <img  src="Group 1735.png">
+     </div>
+    </div>
+     <div class="description">
+    <p class="p1"> <b>Description</b>: Write a 300 - 400 word article from your thread . Publish your understanding and showcase your understanding to the entire world</P>
+    </div>
+    <h4>Title</h4>
+    <input class="title">
+          
+   <h4>Content</h4>
+   <div class="map">
+       <div class="map1">
+       <p>file</p>
+       <p>edit</p>
+       <p>veiw</p>
+       <p>insert</p>
+       <p>format</p>
+       <p>tools</p>
+       <p>table</p>
+       <p>help</p>
+       </div>
+       <div class="map2"> 
+           <img src="arrow-curve-left-down.png">
+            <img src="arrow-curve-left-right.png">
+             <img src="arrow-expand-02.png">
+             <input type="text" placeholder="paragraph">
+              <div class="dots1">
+            <img src=" Ellipse 1.png">
+            <img src="Ellipse 1.png">
+            <img src="Ellipse 1.png">
+            </div>
+       </div>
+      <input class="class-box">
+     
+   </div>
+    </div>
+     <div class="grid1">
+     <div class="layout">
+      <div class="tech">4SA Method</div>
+      <div class="group" >
+      <img  src="Group 1735.png">
+     </div>
+    </div>
+     <div class="description">
+    <p class="p1"> <b>Description</b>: To Explore more read more</P>
+    </div>
+    <div class="but">
+<img src="Vector-31.png"  id="image">
+     
+     <h3>introduction</h3>
+    </div>
+    <div class="eassy1">
+   <p class="essay1"> The 4SA Method , How to bring a idea into progress ?</p>
+   </div>
+   <div class="but">
+    <img src="Vector-2.png" id="images">   
+     
+    <h3>Thread A</h3>  
+</div>
+   <div class="essay1">
+ <p class="esay">
+    How are you going to develop your stratergy ? Which method<br>
+     are you going to use to develop a stratergy ? What if the<br>
+      project is lengthy?
+    </p>
+  </div>
+   
+    <div id="roller">
+      <p class="example">Example 1</p>
+    </div>
+    <p class="conc"> You have a concept , How will you put into progress?</p>
+    </div>
+    </div>
+    </div>
+  </div>
+  
+</body>
+</html>

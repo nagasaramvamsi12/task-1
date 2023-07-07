@@ -1,0 +1,444 @@
+nav
+{
+    background-color: #D2D1CD;
+    height: 90px;
+   display: flex;
+   align-items: center;
+  justify-content: space-between;
+ 
+  
+}
+.dots
+{
+    
+    transform: rotate(90deg);
+    margin-left: 20px;
+}
+.last_container
+{
+  display: flex;
+  align-items: center;
+ margin-right: 100px;
+}
+.logo
+{
+    width: 311px;
+    height: 49px;
+   
+}
+.logo-container
+{
+    margin-left: 83px;
+     
+}
+.landing_link
+{
+    margin-top: 23px;
+}
+.group
+{
+    margin-right: 20px;
+}
+h1{
+    font-family: Poppins;
+font-size: 28px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.02em;
+
+color: blue;
+}
+h2{
+    
+    color: black;
+}
+
+button
+{
+    width: 121px;
+ height:36px;
+
+  color: white;
+  background-color: blue;
+  border-radius: 12px;
+  float: right;
+
+}
+.box
+{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.mid_container
+{
+    width: 880px;
+height: 135px;
+top: 187px;
+left: 187px;
+border-radius: 5px;
+background: #E9ECEF;
+margin-left: 220px;
+
+}
+.inbox
+{
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.grid1
+{
+    width: 480px;
+height: 580px;
+top: 397px;
+left: 214px;
+border-radius: 15px;
+box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5); 
+
+}
+.grid{
+     display: grid;
+     grid-template-rows: auto auto; 
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 50px; 
+  gap: 60px;
+ margin-top: 50px;
+
+}
+.container-wrapper {
+    display: flex;
+    justify-content: center;
+   
+  }
+  .layout
+  {
+    width: 480px;
+height: 50px;
+top: 397px;
+left: 214px;
+border-radius: 15px 15px 0px 0px;
+background: #000000;
+  
+  
+
+  }
+  .tech
+  {
+    color: white;
+    text-align: center;
+    padding-top:15px;
+  }
+  .group
+  {
+    margin-top: -18px;
+    float: right;
+  }
+ 
+.description
+{
+   margin-left: 5px;
+   margin-top: 25px;
+}
+.a 
+{
+    width: 478px;
+height: 40px;
+top: 534px;
+left: 747px;
+background-color:lightyellow;
+
+}
+.symbol
+{
+   margin-left: 10px;
+    
+
+
+}
+
+h3{
+    color: black;
+    margin-left: 90px;
+}
+.a{
+    display: flex;
+    align-items: center;
+   
+}
+.main-container
+{
+    width: 199px;
+height: 95px;
+border-radius: 10px;
+
+margin-top: 30px;
+   display: flex;
+   flex-direction: column;
+}
+.top-container
+{
+    height: 25%;
+    border-radius: 10px 10px 0 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
+linear-gradient(0deg,#EEECE9,#EEECE9);
+  
+
+
+
+}
+.bottom-container
+{
+    height: 80%;
+    border-radius: 15px 15px 15px 15px; 
+    background-color:#FAFAFA;
+    width: 200px;
+}
+.first-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sub
+{
+    color: black;
+    font-family: Open Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+padding-left: 5px;
+padding-top: 5px;
+
+}
+.text
+{
+    font-family: Open Sans;
+font-size: 17px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #6C757D;
+padding-left: 5px;
+padding-top: 8px;
+}
+.third-conatiner
+{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 90px;
+}
+select
+{
+    width: 91px;
+height: 32px;
+border-radius: 5px;
+color: black;
+ margin-left: 25px;
+}
+body
+{
+    margin: 0px;
+}
+.thread
+{
+    width: 121px;
+ height:36px;
+
+  color: white;
+  background-color: blue;
+  border-radius: 12px;
+  float: left; 
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.grid1
+{
+    overflow: scroll;
+   
+}
+.fourth-container
+{
+    width: 425px;
+height: 108px;
+border-radius: 10px;
+  margin-top:100px;
+  margin-left: 25px;
+}
+.bottom-container1
+{
+    height: 80%;
+    border-radius: 15px 15px 15px 15px;
+    width: 101%;
+
+}
+input::placeholder
+{
+    padding-left: 5px;
+}
+.unkown
+{
+    width: 40px;
+    height: 30px;
+}
+.last_container
+{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.net-conatiner
+{
+    margin-top: 25px;
+    margin-right: 35px;
+}
+.title
+{
+    width: 422px;
+height: 43px;
+border-radius: 5px;
+box-shadow: -2px 2px 6px 0px #00000026;
+
+
+}
+h4{
+    margin-left: 30px;
+    margin-top: 35px;
+}
+.description
+{
+    width: 480px;
+    height: 100px;
+    box-shadow: -2px 2px 6px 0px #00000026;
+    margin-top: -20px;
+    margin-left: -1px;
+}
+.p1{
+    text-align: center;
+    padding-top: 28px;
+}
+.title
+{
+    margin-left: 30px;
+}
+.map
+{
+    width: 422px;
+height: 82px;
+border-radius: 5px 5px 0px 0px;
+box-shadow: 0px 2px 10px 0px #0000002E;
+ margin-left: 30px;
+
+}
+.map1
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.map2
+{
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+}
+.class-box
+{
+    width: 422px;
+height: 142px;
+background: #FCFBFB;
+box-shadow: -2px 2px 6px 0px #00000026;
+
+}
+.but
+{
+    width: 434px;
+height: 43px;
+background: hsl(0, 0%, 95%);
+margin-left: 15px;
+ display: flex;
+ align-items: center;
+
+}
+#arrow
+{
+   margin-top: 5px;
+   margin-left: 20px;
+}
+.essay
+{
+    font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.02em;
+text-align: left;
+background: #000000;
+}
+.essay1
+{
+    width: 424px;
+height: 67px;
+margin-left:5px;
+margin-top: 10px;
+
+
+}
+#roller
+{
+    width: 394px;
+height: 43px;
+border: 1px;
+border: 1px solid #D9D7D7;
+background: linear-gradient(0deg, #D9D7D7, #D9D7D7),
+linear-gradient(0deg, #FCFCFC, #FCFCFC);
+margin-left: 10px;
+margin-top:60px;
+
+}
+.example
+{
+    font-family: Open Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0.02em;
+margin-left: 20px;
+
+}
+.conc
+{
+    font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.02em;
+margin-left: 20px;
+
+}
+.book {
+    position: absolute;
+    width: 394.00000000000034px;
+    height: 50.00001907348637px;
+    top: 160px;
+    left: 1200px;
+    border-radius: 30px 30px 0px 0px;
+    background: black;
+    transform: rotate(-90deg);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+
+.book-notification {
+    position: absolute;
+    top: 50%;
+    left: 10px; /* Adjust the left value as per your requirement */
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
